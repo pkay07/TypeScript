@@ -1,0 +1,17 @@
+> first we initiate the typescript into the main folder so we can make any changes 
+  into the the folder
+
+we can do that using 
+
+tsc --init
+
+
+> then specify the root folder where you want to keep the typescript files
+  for that we need to modify the location of rootDir as "./src".
+
+  similarly for the js files we have to specify the folder
+  for that we need to modify the location of OutDir as "./build/js"
+
+
+  > then thereafter we have to compile that all using tsc -w then all will work     
+    automatically
